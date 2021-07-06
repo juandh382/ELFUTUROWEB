@@ -1,0 +1,68 @@
+/* ========================== */
+/*          VARIABLES         */
+/* ========================== */
+
+:root {
+    --colorPrincipal: rgb(0, 54, 160);
+    --blanco: #ffff;
+    --fondoSeccionCategorias: rgb(255, 255, 255);
+    --fondoDelPieDePagina: rgb(204, 204, 204);
+}
+
+/* ========================== */
+/*          GENERALES         */
+/* ========================== */
+h2 {
+    color: var(--colorPrincipal);
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* ========================== */
+/*          BANNER            */
+/* ========================== */
+
+.banner {
+    background-color: var(--colorPrincipal);
+    color: var(--blanco);
+}
+
+
+/* ========================== */
+/*          NAVBAR            */
+/* ========================== */
+#nav-bar {
+    height: 200px;
+}
+#nav-bar .logo img {
+    width: 200px;
+}
+/* ========================== */
+/*          HEADER            */
+/* ========================== */
+#header {
+    height: 500px;
+    background-image: url("../img/banner.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ========================== */
+/*          CATEGORIAS        */
+/* ========================== */
+#categorias {
+    background: var(--fondoSeccionCategorias);
+}
+
+/* ========================== */
+/*          FOOTER            */
+/* ========================== */
+
+#footer {
+    height: 200px;
+    background-color: var(--fondoDelPieDePagina);
+}
