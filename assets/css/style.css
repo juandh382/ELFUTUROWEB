@@ -43,6 +43,42 @@ h2 {
     width: 200px;
 }
 
+#contenedor-buscador {
+    width: 557px;
+}
+#nav-bar form {
+    border: 1px solid var(--colorPrincipal);
+    width: 99%;
+    border-radius: 999px 999px 999px 999px;
+}
+
+
+#buscador {
+    width: 90%;
+    border:none;
+    border-radius: 999px 0px 0px 999px;
+}
+
+#btn-buscar {
+    color: var(--blanco);
+    background-color: var(--colorPrincipal);
+    border:none;
+    border-radius: 0px 999px  999px 0px ;
+}
+
+.boton {
+    color: var(--azul);
+    border: 1px solid var(--azul);
+
+    border-radius: 20px;
+}
+
+.boton-azul {
+    background: var(--azul);
+    color: var(--blanco);
+    border: 1px solid var(--blanco);
+}
+
 /* ========================== */
 /*          HEADER            */
 /* ========================== */

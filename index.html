@@ -22,23 +22,27 @@
         <h3>Oferta Exclusiva por Tiempo Limitado</h3>
     </div>
 
-    <nav class="row nav align-items-center" id="nav-bar">
+    <nav class="row navbar navbar-expand-lg align-items-center px-5" id="nav-bar">
         <div class="logo col-3 nav-item">
             <a href="index.html">
 
                 <img src="./assets/img/logo.png" alt="El Futuro de chile">
             </a>
         </div>
-        <div class="col nav-item">
+        <div class="nav-item" id="contenedor-buscador">
             <form action="">
-                <input type="text" name="" id="">
-                <button type="submit"></button>
+                <input type="text" name="" id="buscador" placeholder="Busca tu Carrera" class="ml-0 p-3">
+                <button type="submit" id="btn-buscar" class="p-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="img-fluid"
+                        fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></button>
             </form>
         </div>
-        <ul class="col row">
-            <li class="col list-unstyled nav-item"><a href="" class="boton btn">Suscribete</a></li>
-            <li class="col list-unstyled nav-item"><a href="" class="boton btn">Entrar</a></li>
-            <li class="col list-unstyled nav-item"><a href="" class="boton btn">Ayuda</a></li>
+        <ul class="col row align-items-center mb-0">
+            <li class="col row justify-content-center list-unstyled nav-item"><a href="" class="p-3 boton btn boton-azul btn-lg">Suscribete</a></li>
+            <li class="col row justify-content-center list-unstyled nav-item"><a href="" class="btn-lg p-3 boton btn">Entrar</a></li>
+            <li class="col row justify-content-center list-unstyled nav-item"><a href="" class="btn-lg p-3 boton btn">Ayuda</a></li>
         </ul>
     </nav>
 
@@ -52,8 +56,8 @@
                 Accede a cápsulas de vídeo, en dónde profesionales de distintas carreras te entregaran información clave
                 para que descubras la vocacion que transformará tu futuro.
             </p>
-            <footer class="d-flex justify-content-center">
-                <a href="">REGISTRATE</a>
+            <footer class="d-flex justify-content-center mt-3">
+                <a href="" class="boton btn boton-azul p-3">REGISTRATE</a>
             </footer>
         </article>
     </header>
