@@ -31,64 +31,112 @@
 }
 
 @media (max-width: 1184px) {
-    #nav-bar .row {
-        
-    }
+
     #nav-bar .col-3 {
         flex: 0 0 auto;
         width: 16%;
     }
+
     #nav-bar .logo img {
         width: 125px;
     }
+
     #contenedor-buscador {
         width: 384px;
     }
+
     #buscador {
         width: 85.2%;
         border: none;
         border-radius: 999px 0px 0px 999px;
     }
+
     #nav-bar li a {
         width: 93px;
         font-size: 14px;
     }
 
     #categorias .card {
-        background-color: var(--azul);
-        height: 280px;
+
+        height: auto;
+        align-items: center;
+
     }
 
     #categorias .card h3 {
         font-size: 19px;
+        margin-top: 20px;
+        font-size: 23px;
+    }
+
+    #categorias nav ul li {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    #footer {
+        height: auto;
+    }
+
+    #footer .col {
+        flex-flow: column;
+    }
+
+    #footer ul.col {
+        flex-flow: column;
+        width: 100%;
+        
+    }
+    
+    .col-3 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    #footer #redes {
+        flex-flow: row;
+
+    }
+
+    .col-1 {
+        flex: 0 0 auto;
+        width: 21.333333%;
     }
 }
 
 @media (max-width: 934px) {
+    .pt-3 {
+        padding-top: 3rem !important;
+    }
+
     #nav-bar {
         height: auto;
         min-height: 300px;
         flex-flow: column;
         justify-content: space-between;
-        
+
     }
+
     #contenedor-buscador {
         width: 75%;
     }
+
     #nav-bar form {
         border: 1px solid var(--colorPrincipal);
         width: 100%;
         border-radius: 999px 999px 999px 999px;
     }
+
     #buscador {
         width: 75.4%;
         border: none;
         border-radius: 999px 0px 0px 999px;
     }
+
     #nav-bar ul li a {
         width: 100%;
     }
-    
+
     #nav-bar ul {
         margin: 20px auto;
         flex-flow: column;
@@ -99,6 +147,7 @@
     #nav-bar ul li {
         width: 100%;
     }
+
     #nav-bar ul li a {
         margin: 14px;
         width: 100%;
@@ -107,26 +156,41 @@
     #categorias ul {
         flex-flow: column;
     }
+
     #categorias ul img {
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
     .lista-categorias {
-        display:flex;
+        display: flex;
         flex-flow: column;
-        
+
     }
 
     #categorias .px-5 {
         padding-right: 4rem !important;
         padding-left: 3rem !important;
     }
+
     .lista-categorias .row {
         padding: 0;
     }
+
     .lista-categorias article {
         width: 100%;
-        margin:20px;
+        margin: 20px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    #categorias .card h3 {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    #correo {
+        
+        font-size: 15px;
     }
 }
