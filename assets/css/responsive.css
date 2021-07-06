@@ -103,9 +103,11 @@
         flex: 0 0 auto;
         width: 21.333333%;
     }
+
 }
 
 @media (max-width: 934px) {
+    
     .pt-3 {
         padding-top: 3rem !important;
     }
@@ -182,6 +184,14 @@
         width: 100%;
         margin: 20px;
     }
+    #nav-bar .col-3 {
+        flex: 0 0 auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
 
 }
 
@@ -197,6 +207,12 @@
         border: none;
         border-radius: 0px 999px 999px 0px;
         width: 14%;
+    }
+
+    #contenedor-buscador {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
     }
 }
 
@@ -233,12 +249,14 @@
         width: 14.9%;
     }
 }
+
 @media (max-width: 665px) {
     #buscador {
         width: 83.9%;
         border: none;
         border-radius: 999px 0px 0px 999px;
     }
+
     #btn-buscar {
         color: var(--blanco);
         background-color: var(--colorPrincipal);
@@ -247,12 +265,14 @@
         width: 15.1%;
     }
 }
+
 @media (max-width: 556px) {
     #buscador {
         width: 81%;
         border: none;
         border-radius: 999px 0px 0px 999px;
     }
+
     #btn-buscar {
         color: var(--blanco);
         background-color: var(--colorPrincipal);
@@ -261,12 +281,14 @@
         width: 17.8%;
     }
 }
+
 @media (max-width: 484px) {
     #buscador {
         width: 70%;
         border: none;
         border-radius: 999px 0px 0px 999px;
     }
+
     #btn-buscar {
         color: var(--blanco);
         background-color: var(--colorPrincipal);
@@ -275,6 +297,22 @@
         width: 28.5%;
     }
 }
+
+@media (max-width: 408px) {
+    #buscador {
+        width: 61%;
+        border: none;
+        border-radius: 999px 0px 0px 999px;
+    }
+    #btn-buscar {
+        color: var(--blanco);
+        background-color: var(--colorPrincipal);
+        border: none;
+        border-radius: 0px 999px 999px 0px;
+        width: 37.4%;
+    }
+}
+
 @media (max-width: 400px) {
     #categorias .card h3 {
         margin-top: 20px;
