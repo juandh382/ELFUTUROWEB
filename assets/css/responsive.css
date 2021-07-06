@@ -86,13 +86,14 @@
     #footer ul.col {
         flex-flow: column;
         width: 100%;
-        
+
     }
-    
+
     .col-3 {
         flex: 0 0 auto;
         width: 100%;
     }
+
     #footer #redes {
         flex-flow: row;
 
@@ -118,7 +119,7 @@
     }
 
     #contenedor-buscador {
-        width: 75%;
+        width: 46%;
     }
 
     #nav-bar form {
@@ -128,7 +129,7 @@
     }
 
     #buscador {
-        width: 75.4%;
+        width: 85.4%;
         border: none;
         border-radius: 999px 0px 0px 999px;
     }
@@ -181,16 +182,107 @@
         width: 100%;
         margin: 20px;
     }
-    
+
 }
 
+@media (max-width: 932px) {
+    #contenedor-buscador {
+        display: flex;
+        width: 100%;
+    }
+
+    #btn-buscar {
+        color: var(--blanco);
+        background-color: var(--colorPrincipal);
+        border: none;
+        border-radius: 0px 999px 999px 0px;
+        width: 14%;
+    }
+}
+
+@media (max-width: 847px) {
+    #buscador {
+        width: 85.3%;
+        border: none;
+        border-radius: 999px 0px 0px 999px;
+    }
+}
+
+@media (max-width: 744px) {
+    #buscador {
+        width: 84.3%;
+        border: none;
+        border-radius: 999px 0px 0px 999px;
+    }
+
+    #btn-buscar {
+        color: var(--blanco);
+        background-color: var(--colorPrincipal);
+        border: none;
+        border-radius: 0px 999px 999px 0px;
+        width: 14.99%;
+    }
+}
+
+@media (max-width: 744px) {
+    #btn-buscar {
+        color: var(--blanco);
+        background-color: var(--colorPrincipal);
+        border: none;
+        border-radius: 0px 999px 999px 0px;
+        width: 14.9%;
+    }
+}
+@media (max-width: 665px) {
+    #buscador {
+        width: 83.9%;
+        border: none;
+        border-radius: 999px 0px 0px 999px;
+    }
+    #btn-buscar {
+        color: var(--blanco);
+        background-color: var(--colorPrincipal);
+        border: none;
+        border-radius: 0px 999px 999px 0px;
+        width: 15.1%;
+    }
+}
+@media (max-width: 556px) {
+    #buscador {
+        width: 81%;
+        border: none;
+        border-radius: 999px 0px 0px 999px;
+    }
+    #btn-buscar {
+        color: var(--blanco);
+        background-color: var(--colorPrincipal);
+        border: none;
+        border-radius: 0px 999px 999px 0px;
+        width: 17.8%;
+    }
+}
+@media (max-width: 484px) {
+    #buscador {
+        width: 70%;
+        border: none;
+        border-radius: 999px 0px 0px 999px;
+    }
+    #btn-buscar {
+        color: var(--blanco);
+        background-color: var(--colorPrincipal);
+        border: none;
+        border-radius: 0px 999px 999px 0px;
+        width: 28.5%;
+    }
+}
 @media (max-width: 400px) {
     #categorias .card h3 {
         margin-top: 20px;
         font-size: 15px;
     }
+
     #correo {
-        
+
         font-size: 15px;
     }
 }
